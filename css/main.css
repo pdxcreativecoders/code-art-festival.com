@@ -18,10 +18,16 @@
 }
 
 body {
- margin-top: 50px;
+ margin-top: 0px;
  margin-bottom: 50px;
  background: none;
  font-family: roboto-light;
+ /*padding-top: 10px;
+ padding-bottom: 20px; */
+}
+
+.text-vlarge {
+  font-size: 32px;
 }
 
 .text-large {
@@ -49,6 +55,10 @@ body {
   color: rgb(29,53,127);
 }
 
+.text-white {
+  color: white;
+}
+
 .text-regular {
   font-family: 'roboto-regular';
 }
@@ -61,14 +71,33 @@ body {
   font-family: 'roboto-light';
 }
 
+.outlined {
+  outline: 1px solid rgba(0,0,0,0.1);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
 
-.fs_opaque {
+
+
+#bg {
   position: fixed;
-  background-color: rgba(0,0,0,0.65);
-  top: 0px;
-  left: 0px;
-  width: 2000px;
-  height: 4000px;
+  background-color: rgb(0,0,0);
+
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 .full0 {
