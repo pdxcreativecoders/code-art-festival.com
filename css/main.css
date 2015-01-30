@@ -43,6 +43,24 @@ body {
 }
 
 
+.color-orange {
+  color: rgb(241,90,34);
+}
+.color-gold {
+  color: rgb(255,207,91);
+}
+.color-white {
+  color: rgb(237,230,206);
+}
+.color-green {
+  color: rgb(133,171,143);
+}
+.color-blue {
+  color: rgb(80,133,182);
+}
+
+
+
 .text-green {
   color: rgb(65,188,103);
 }
@@ -99,30 +117,6 @@ body {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
-}
-
-.full0 {
-  background: url(../img/bg0.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.full1 {
-  background: url(../img/bg1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.full2 {
-  background: url(../img/bg2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .jumbotron {
