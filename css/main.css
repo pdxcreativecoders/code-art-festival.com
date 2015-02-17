@@ -128,3 +128,7 @@ div {
   /*background-color: rgba(255,255,255,0.05);*/
   color: white;
 }
+
+hr {
+  border-top: 1px solid rgba(255,255,255,0.1)
+}
